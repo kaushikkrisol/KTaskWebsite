@@ -50,13 +50,13 @@ const CallToAction = () => {
                 <td className="px-6 py-4 text-gray-700">❌ No</td>
                 <td className="px-6 py-4 text-gray-700">❌ No</td>
               </tr>
-              <tr className="border-t border-b">
+              {/* <tr className="border-t border-b">
                 <td className="px-6 py-4 text-gray-700">Automated Preflight Checks</td>
                 <td className="px-6 py-4 text-gray-700">✅ Yes</td>
                 <td className="px-6 py-4 text-gray-700">❌ No</td>
                 <td className="px-6 py-4 text-gray-700">❌ No</td>
                 <td className="px-6 py-4 text-gray-700">❌ No</td>
-              </tr>
+              </tr> */}
               <tr className="border-t border-b">
                 <td className="px-6 py-4 text-gray-700">Proofing & Approval System</td>
                 <td className="px-6 py-4 text-gray-700">✅ Yes</td>
@@ -64,13 +64,13 @@ const CallToAction = () => {
                 <td className="px-6 py-4 text-gray-700">✅ Yes</td>
                 <td className="px-6 py-4 text-gray-700">❌ No</td>
               </tr>
-              <tr className="border-t border-b">
+              {/* <tr className="border-t border-b">
                 <td className="px-6 py-4 text-gray-700">Color Management & Print Standards Compliance</td>
                 <td className="px-6 py-4 text-gray-700">✅ Yes</td>
                 <td className="px-6 py-4 text-gray-700">❌ No</td>
                 <td className="px-6 py-4 text-gray-700">❌ No</td>
                 <td className="px-6 py-4 text-gray-700">❌ No</td>
-              </tr>
+              </tr> */}
               <tr className="border-t border-b">
                 <td className="px-6 py-4 text-gray-700">Seamless Adobe & RIP Software Integration</td>
                 <td className="px-6 py-4 text-gray-700">✅ Yes</td>

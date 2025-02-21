@@ -19,7 +19,7 @@ const featuresData: Feature[] = [
     ),
     title: "Project-Based Job Tracking ",
     paragraph: "Organize print jobs, assign tasks, and monitor progress",
-    btn: "Learn More",
+    btn: "",
     btnLink: "/#",
   },
   {
@@ -40,7 +40,7 @@ const featuresData: Feature[] = [
     ),
     title: "Proofing & Approval System ",
     paragraph: "Clients and teams can review, annotate, and approve designs in real time.",
-    btn: "Learn More",
+    btn: "",
     btnLink: "/#",
   },
   {
@@ -93,7 +93,7 @@ const featuresData: Feature[] = [
     ),
     title: "Automated Preflight Checks",
     paragraph: "Identify missing fonts, incorrect color profiles, and low-resolution images before printing.",
-    btn: "Learn More",
+    btn: "",
     btnLink: "/#",
   },
   {
@@ -126,7 +126,7 @@ const featuresData: Feature[] = [
     ),
     title: "Artwork & File Management ",
     paragraph: "Securely store AI, PSD, PDF, and other prepress files with version control.",
-    btn: "Learn More",
+    btn: "",
     btnLink: "/#",
   },
   {
@@ -159,7 +159,7 @@ const featuresData: Feature[] = [
     ),
     title: "Deadline & Milestone Tracking",
     paragraph: "Stay on schedule with automated reminders and status updates.",
-    btn: "Learn More",
+    btn: "",
     btnLink: "/#",
   },
   {
@@ -192,7 +192,7 @@ const featuresData: Feature[] = [
     ),
     title: "Task Dependencies & Workflow Automation ",
     paragraph: "Streamline the handoff between designers, proofing, and print teams.",
-    btn: "Learn More",
+    btn: "",
     btnLink: "/#",
   },
   {
@@ -225,7 +225,7 @@ const featuresData: Feature[] = [
     ),
     title: "Gantt, Kanban & Calendar Views ",
     paragraph: "Manage projects visually with flexible task organization.",
-    btn: "Learn More",
+    btn: "",
     btnLink: "/#",
   },
   {
@@ -258,7 +258,7 @@ const featuresData: Feature[] = [
     ),
     title: "Seamless Integration ",
     paragraph: "Works with Adobe Illustrator, Photoshop, InDesign, RIP software, and MIS systems.",
-    btn: "Learn More",
+    btn: "",
     btnLink: "/#",
   },
 ];

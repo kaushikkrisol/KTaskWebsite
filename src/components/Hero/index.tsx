@@ -49,13 +49,13 @@ const Hero = () => {
                 The All-in-One Solution for Prepress & Print Production Workflows
 
                 </p>
-                <ul className="mb-10 flex flex-wrap items-center justify-center gap-5">
+                {/* <ul className="mb-10 flex flex-wrap items-center justify-center gap-5">
                   <li>
                     <Link
                       href="https://nextjstemplates.com/templates/play"
                       className="inline-flex items-center justify-center rounded-md bg-white px-7 py-[14px] text-center text-base font-medium text-dark shadow-1 transition duration-300 ease-in-out hover:bg-gray-2"
                     >
-                      Download Now
+                      
                     </Link>
                   </li>
                   <li>
@@ -84,7 +84,7 @@ const Hero = () => {
                       Start on Github
                     </Link>
                   </li>
-                </ul>
+                </ul> */}
                 <WhatsAppButton/>
 
                 <div>
@@ -234,7 +234,7 @@ const Hero = () => {
               >
                 <div className="mt-16">
                   <Image
-                    src="/images/hero/hero-image.jpg"
+                    src="/images/hero/hero-image.png"
                     alt="hero"
                     className="mx-auto max-w-full rounded-t-xl rounded-tr-xl"
                     width={845}

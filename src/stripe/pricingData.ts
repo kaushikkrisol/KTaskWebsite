@@ -33,7 +33,7 @@ export const pricingData: Price[] = [
       "API Access",
       "& Dedicated Support."
     ],
-    description: "We are building a new boat-related software that is coming soon...!" // Custom message
+    description: "We are building a new bot-related software that is coming soon...!" // Custom message
   },
   
 ];

@@ -102,7 +102,7 @@ const Header = () => {
                 )}
               </Link>
             </div>
-            <div className="flex w-full items-center justify-between px-4">
+            <div className="flex w-full items-center justify-between px-2">
               <div>
                 <button
                   onClick={navbarToggleHandler}
@@ -138,14 +138,14 @@ const Header = () => {
                     }`}
                   />
                 </button>
-                <nav
-                  id="navbarCollapse"
-                  className={`navbar absolute right-0 z-30 w-[250px] rounded border-[.5px] border-body-color/50 bg-white px-6 py-4 duration-300 dark:border-body-color/20 dark:bg-dark-2 lg:visible lg:static lg:w-auto lg:border-none lg:!bg-transparent lg:p-0 lg:opacity-100 lg:dark:bg-transparent ${
-                    navbarOpen
-                      ? "visibility top-full opacity-100"
-                      : "invisible top-[120%] opacity-0"
-                  }`}
-                >
+                  <nav
+    id="navbarCollapse"
+    className={`navbar absolute right-0 z-30 w-[250px] rounded border-[.5px] border-body-color/50 bg-white px-6 py-2 duration-300 dark:border-body-color/20 dark:bg-dark-2 lg:visible lg:static lg:w-auto lg:border-none lg:!bg-transparent lg:p-0 lg:opacity-100 lg:dark:bg-transparent ${
+      navbarOpen
+        ? "visibility top-full opacity-100"
+        : "invisible top-[120%] opacity-0"
+    }`}
+>
                   <ul className="block lg:ml-8 lg:flex lg:gap-x-8 xl:ml-14 xl:gap-x-12">
                     {menuData.map((menuItem, index) =>
                       menuItem.path ? (
@@ -315,7 +315,7 @@ const Header = () => {
                   <>
                     {pathUrl !== "/" ? (
                       <>
-                        <Link
+                        {/* <Link
                           href="/signin"
                           className="px-7 py-3 text-base font-medium text-dark hover:opacity-70 dark:text-white"
                         >
@@ -326,11 +326,11 @@ const Header = () => {
                           className="rounded-lg bg-primary px-6 py-3 text-base font-medium text-white duration-300 ease-in-out hover:bg-primary/90 dark:bg-white/10 dark:hover:bg-white/20"
                         >
                           Sign Up
-                        </Link>
+                        </Link> */}
                       </>
                     ) : (
                       <>
-                        <Link
+                        {/* <Link
                           href="/signin"
                           className={`px-7 py-3 text-base font-medium hover:opacity-70 ${
                             sticky ? "text-dark dark:text-white" : "text-white"
@@ -347,7 +347,7 @@ const Header = () => {
                           }`}
                         >
                           Sign Up
-                        </Link>
+                        </Link> */}
                       </>
                     )}
                   </>
