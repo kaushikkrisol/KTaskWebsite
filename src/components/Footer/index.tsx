@@ -187,7 +187,7 @@ const Footer = () => {
                     href="#"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    LineIcons
+                    Production ERP
                   </Link>
                 </li>
                 <li>
@@ -195,7 +195,7 @@ const Footer = () => {
                     href="#"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    Next.js Templates
+                    Printing ERP
                   </Link>
                 </li>
                 <li>
@@ -203,17 +203,17 @@ const Footer = () => {
                     href="#"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    TailAdmin
+                   KTask
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link
                     href="#"
                     className="mb-3 inline-block text-base text-gray-7 hover:text-primary"
                   >
-                    PlainAdmin
+                    
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
@@ -298,7 +298,7 @@ const Footer = () => {
                     target="_blank"
                     className="text-gray-1 hover:underline"
                   >
-                    TailGrids and Next.js Templates
+                    Krisol Infosoft Pvt.Ltd.
                   </Link>
                 </p>
               </div>

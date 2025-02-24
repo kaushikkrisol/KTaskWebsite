@@ -96,7 +96,7 @@ const ResetPassword = ({ token }: { token: string }) => {
                     className="dark:hidden"
                   />
                   <Image
-                    src="/images/logoImg.png"
+                    src="/images/logoImg2.png"
                     alt="logo"
                     width={200}
                     height={60}

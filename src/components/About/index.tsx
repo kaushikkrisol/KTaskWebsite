@@ -16,7 +16,6 @@ const About = () => {
                   Connect With the Tools You Already Use
                 </h2>
                 <p className="mb-10 text-base leading-relaxed text-body-color dark:text-dark-6">
-                🔹 Adobe Creative Suite – Seamlessly import and export files from Photoshop, Illustrator, and InDesign.<br/>
                 🔹 Enfocus PitStop – Automate preflight checks and fix common print errors.<br/>
                 🔹 Esko Automation Engine – Integrate with prepress automation workflows.<br/>
                 🔹 Prinergy & EFI Systems – Connect with industry-leading RIP & color management solutions.<br/>
@@ -64,7 +63,7 @@ const About = () => {
                   <div className="relative z-10 mb-4 flex items-center justify-center overflow-hidden bg-primary px-6 py-12 sm:mb-8 sm:h-[160px] sm:p-5 lg:mb-4 xl:mb-8">
                     <div>
                       <span className="block text-5xl font-extrabold text-white">
-                        09
+                        15
                       </span>
                       <span className="block text-base font-semibold text-white">
                         We have

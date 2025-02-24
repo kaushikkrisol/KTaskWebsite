@@ -56,7 +56,7 @@ const SignUp = () => {
   //               <Link href="/" className="mx-auto inline-block max-w-[160px]">
   //                 <Image
   //                   src="/images/logoImg.png"
-  //                   alt="logo"
+  //                   alt=""
   //                   width={140}
   //                   height={30}
   //                   className="dark:hidden"

@@ -7,6 +7,7 @@ import Loader from "@/components/Common/Loader";
 import Link from "next/link";
 import Image from "next/image";
 import logoImg from '../../../../public/images/logoImg.png';
+import logoImg2 from '../../../../public/images/logoImg2.png'
 
 const ForgotPassword = () => {
   const [email, setEmail] = useState("");
@@ -65,7 +66,7 @@ const ForgotPassword = () => {
                     className="dark:hidden"
                   />
                   <Image
-                    src={logoImg}
+                    src={logoImg2}
                     alt="logo"
                     width={200}
                     height={30}

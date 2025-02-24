@@ -40,7 +40,7 @@ const Contact = () => {
                   CONTACT US
                 </span>
                 <h2 className="max-w-[260px] text-[35px] font-semibold leading-[1.14] text-dark dark:text-white">
-                  Let&#39;s talk about your problem.
+                  Let&#39;s talk about our products
                 </h2>
               </div>
               <div className="mb-12 flex flex-wrap justify-between lg:mb-0">
@@ -82,8 +82,6 @@ const Contact = () => {
                     </h3>
                     <p className="text-base text-body-color dark:text-dark-6">
                       kaushik@krisolinfosoft.com
-                      <br />
-                      krisolerp@krisolinfosoft.com
                     </p>
                     <p className="mt-1 text-base text-body-color dark:text-dark-6">
                      

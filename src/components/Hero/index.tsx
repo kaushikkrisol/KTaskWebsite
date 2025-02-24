@@ -4,32 +4,9 @@ import WhatsAppButton from "../watsapp";
 import Head from "next/head";
 
 const Hero = () => {
+
   return (
     <>
-       <Head>
-        <meta name="keywords" content="
-          Prepress task management software,
-          Printing project workflow management,
-          Print production task automation,
-          Prepress job scheduling tools,
-          Digital prepress workflow optimization,
-          Prepress job tracking system,
-          Task management for printing companies,
-          Printing process workflow automation,
-          Print shop task management system,
-          Prepress task tracking solutions,
-          Automated prepress workflow solutions,
-          Prepress job management software,
-          Print production task tracking,
-          Prepress process automation,
-          Digital print workflow software,
-          Prepress task monitoring tools,
-          Online prepress job tracking,
-          Print workflow optimization tools,
-          Printing workflow automation software,
-          Customizable prepress workflow
-        " />
-      </Head>
       <section
         id="home"
         className="relative overflow-hidden bg-primary pt-[120px] md:pt-[130px] lg:pt-[160px]"

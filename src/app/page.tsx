@@ -15,7 +15,26 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Krisol Infosoft-KTask",
-  description: "KTask comes equipped with all the necessary integrations, pages, and components to launch a fully functional, feature-rich SaaS website tailored to meet the needs of print professionals. ",
+  description: `Prepress task management software,
+    Printing project workflow management,
+    Print production task automation,
+    Prepress job scheduling tools,
+    Digital prepress workflow optimization,
+    Prepress job tracking system,
+    Task management for printing companies,
+    Printing process workflow automation,
+    Print shop task management system,
+    Prepress task tracking solutions,
+    Automated prepress workflow solutions,
+    Prepress job management software,
+    Print production task tracking,
+    Prepress process automation,
+    Digital print workflow software,
+    Prepress task monitoring tools,
+    Online prepress job tracking,
+    Print workflow optimization tools,
+    Printing workflow automation software,
+    Customizable prepress workflow`
 };
 
 export default function Home() {

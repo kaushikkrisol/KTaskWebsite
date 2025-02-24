@@ -64,7 +64,7 @@ const Header = () => {
                 {pathUrl !== "/" ? (
                   <>
                     <Image
-                      src={`/images/logoImg.png`}
+                      src={`/images/logoImg2.png`}
                       alt="logo"
                       width={240}
                       height={60}
@@ -83,7 +83,7 @@ const Header = () => {
                     <Image
                       src={`${
                         sticky
-                          ? "/images/logoImg.png"
+                          ? "/images/logoImg2.png"
                           : "/images/logoImg.png"
                       }`}
                       alt="logo"
@@ -138,6 +138,7 @@ const Header = () => {
                     }`}
                   />
                 </button>
+                
                   <nav
     id="navbarCollapse"
     className={`navbar absolute right-0 z-30 w-[250px] rounded border-[.5px] border-body-color/50 bg-white px-6 py-2 duration-300 dark:border-body-color/20 dark:bg-dark-2 lg:visible lg:static lg:w-auto lg:border-none lg:!bg-transparent lg:p-0 lg:opacity-100 lg:dark:bg-transparent ${
@@ -255,10 +256,28 @@ const Header = () => {
                         </li>
                       ),
                     )}
+                    <li>
+                    <a
+                      href="https://calendly.com/kaushik-krisolinfosoft/30min" // Change to your appointment link
+                      target="_blank"
+                      className="px-5 py-3 text-base font-medium text-dark hover:opacity-70 dark:text-white rounded-lg border-2 border-white bg-primary bg-opacity-100 text-white duration-300 ease-in-out hover:bg-opacity-20 hover:text-dark lg:inline-block lg:ml-8 transform translate-y-1" // Added translate-y-1 to shift it down
+                      
+                    >
+                  Book Your Appointment
+                </a>
+                                        </li>
+
+
+
+                   
                   </ul>
+                  
                 </nav>
               </div>
               <div className="hidden items-center justify-end pr-16 sm:flex lg:pr-0">
+
+           
+
                 {/* theme toggler */}
                 <button
                   aria-label="theme toggler"
@@ -348,6 +367,8 @@ const Header = () => {
                         >
                           Sign Up
                         </Link> */}
+
+                      
                       </>
                     )}
                   </>

@@ -23,17 +23,14 @@ const Faq = () => {
               question="How does the Proofing & Approval System work?"
               answer="The Proofing & Approval System allows clients and team members to review, annotate, and approve designs in real-time. This eliminates delays and miscommunications, ensuring a faster approval process and reducing print errors."
             />
-            <SingleFaq
+            {/* <SingleFaq
               question=" What are Automated Preflight Checks?"
               answer="Automated Preflight Checks help identify common print issues before they become problems. The system automatically checks for missing fonts, incorrect color profiles, low-resolution images, and other issues that could affect print quality, ensuring your files are print-ready."
-            />
+            /> */}
           </div>
 
           <div className="w-full px-4 lg:w-1/2">
-            <SingleFaq
-              question=" Can I integrate this system with Adobe Creative Suite?"
-              answer="Yes, our platform seamlessly integrates with Adobe Illustrator, Photoshop, and InDesign, allowing you to easily import and export files. This integration makes it easier to manage your artwork without the need for manual file conversions."
-            /><br/>
+            
             <SingleFaq
               question="Does the system support color management?"
               answer="Yes, our platform ensures color accuracy by supporting CMYK, Pantone, and ICC profiles. This helps you maintain consistent color standards throughout your prepress and print production workflow."
