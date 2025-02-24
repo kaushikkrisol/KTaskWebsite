@@ -2,6 +2,7 @@
 import axios from "axios";
 import { useState } from "react";
 
+
 const Contact = () => {
   const [message,setMessage]=useState('');
   const [username,setUsername]=useState('');
@@ -20,7 +21,7 @@ const Contact = () => {
       bodydat:"Your message has been sent successfully"
     }
     try {
-      const response =await axios.post("https://localhost:7035/api/JobSummary/Sendmailforcustomer", payload);
+      const response =await axios.post("https://productionapi.comart.in/api/JobSummary/Sendmailforcustomer", payload);
       setresponseMessage(response.data.message); // Set success message
     } catch (error) {
       setresponseMessage("An error occurred while sending the email.");
